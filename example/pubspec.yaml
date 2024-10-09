@@ -1,0 +1,30 @@
+name: home_widget_example
+description: Demonstrates how to use the home_widget plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  workmanager:
+    git:
+      url: https://github.com/sunalwaysknows/flutter_workmanager
+      ref: f37742bcf612c51e9571d623138a21a90a5992ea
+
+  home_widget_vconnex:
+    path: ../
+
+  # cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_lints: ^1.0.1
+  device_info_plus: ^2.2.0
+  
+
+flutter:
+
+  uses-material-design: true
+
